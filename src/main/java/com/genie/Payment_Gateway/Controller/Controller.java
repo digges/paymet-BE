@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/payment")
-@CrossOrigin(origins = {"http://127.0.0.1:550","https://paytem-by.vercel.app","https://payment-fe-chi.vercel.app"})
+@CrossOrigin(origins = {"http://127.0.0.1:5550","https://paytem-by.vercel.app","https://payment-fe-chi.vercel.app,"})
 public class Controller {
     @Autowired
     private paymentService paymentService;
@@ -42,4 +42,5 @@ public class Controller {
 
     }
 }
+
 
